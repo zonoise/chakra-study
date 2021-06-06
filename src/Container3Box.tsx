@@ -23,16 +23,16 @@ export const Container3Box = () => {
   return (
   <Container maxW="container.lg" bg="yellow.100" centerContent>
     <Heading p={3} size="xl">特徴</Heading>
-    <Stack w="100%" bg="" direction={["column","row"]} spacing="24px" justifyContent={["center","space-evenly"]}>
-      <Box w={["100%","200px"]} h="" bg="orange.300" borderRadius="8" boxShadow="md" border="1px solid gray">
+    <Stack w="100%" bg="" direction={["column",null,"row"]} spacing="24px" justifyContent={["center","space-evenly"]}>
+      <Box w={["100%",null,"200px"]} h="" bg="orange.300" borderRadius="8" boxShadow="md" border="1px solid gray">
         <Heading  sx={headingStyle} p={2} size="lg" textAlign="center">{'\u2728'}うまい{'\u2728'}</Heading>
         <Text align="center" m={2}>{dummyText}</Text>
       </Box>
-      <Box w={["100%","200px"]} h="" bg="orange.300" borderRadius="8" boxShadow="md" border="1px solid gray">
+      <Box w={["100%",null,"200px"]} h="" bg="orange.300" borderRadius="8" boxShadow="md" border="1px solid gray">
         <Heading  sx={headingStyle} p={2} size="lg" textAlign="center">{'\u2728'}はやい{'\u2728'}</Heading>
         <Text m={2}>{dummyText}</Text>
       </Box>
-      <Box w={["100%","200px"]} h="" bg="orange.300" borderRadius="8" boxShadow="md" border="1px solid gray">
+      <Box w={["100%",null,"200px"]} h="" bg="orange.300" borderRadius="8" boxShadow="md" border="1px solid gray">
         <Heading  sx={headingStyle} p={2} size="lg" textAlign="center">{'\u2728'}やすい{'\u2728'}</Heading>
         <Text m={2}>{dummyText}</Text>
       </Box>
