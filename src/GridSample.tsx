@@ -5,7 +5,6 @@ import {
   Heading,
   Grid,
   Text,
-  Box,
 } from "@chakra-ui/react"
 
 type ItemProps = {
@@ -33,7 +32,6 @@ const MyCard: React.FC<ItemProps> = ({ head, body, colSpan}) => {
     </GridItem>
   )
 };
-
 
 export const GridSample = () => {
 
