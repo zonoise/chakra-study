@@ -35,13 +35,6 @@ const MyCard: React.FC<ItemProps> = ({ head, body, colSpan}) => {
 
 export const GridSample = () => {
 
-  const headingStyle = {
-    bg: "orange.400",
-    borderRadius: "8px 8px 0 0",
-    border: "1px solid gray",
-    margin: "-1px -1px 0"
-  }
-
   const dummyText =
     "Chakra UI は、React アプリケーションを構築するために必要なビルディング" +
     "ブロックを提供する";
